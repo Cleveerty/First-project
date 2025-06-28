@@ -1,5 +1,7 @@
 # Excel to PDF Converter/Calculator
 
+Only tested using vs-code so that is what is recommended to run the source codes.
+
 A simple pp to convert an Excel file to PDF with a policy number.
 
 ## Steps to setup locally.

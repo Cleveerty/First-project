@@ -12,7 +12,10 @@ A simple pp to convert an Excel file to PDF with a policy number.
 
 2. Install dependencies:
    ```
-   pip install -r requirements.txt
+   pip install -r readme.txt
+   flask
+   openpyxl
+   fpdf
    ```
 
 3. Place your excel file into the project folder and rename it to `Book2.xlsx`. Or use the      excel file provided and modifiy it how you see fit.

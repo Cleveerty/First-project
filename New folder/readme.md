@@ -7,7 +7,7 @@ A simple pp to convert an Excel file to PDF with a policy number.
 1. Clone this repo:
    ```
    git clone https://github.com/Cleveerty/First-project.git
-   cd First-Project
+   cd First-project
    ```
 
 2. Install dependencies:

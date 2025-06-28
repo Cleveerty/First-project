@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/web.css" />
+<script src="/web.js"></script>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>EXCEL TO PDF DOWNLOAD</title>
+</head>
+<body>
+    <div class="container">
+        <h1>EXCEL TO PDF DOWNLOAD</h1>
+        <form id="excelForm" action="/convert" method="post" enctype="multipart/form-data">
+            <label for="policyNumber">Policy Number:</label>
+            <input type="text" id="policyNumber" name="policyNumber" required />
+            <input type="hidden" id="filePath" name="filePath" value="Book2.xlsx" />
+            <button type="submit">Convert to PDF</button>
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
